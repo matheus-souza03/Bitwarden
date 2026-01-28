@@ -1,16 +1,32 @@
 # Bitwarden
-Este repositório documenta a instalação e configuração do servidor self-hosted do Bitwarden.
-Bitwarden é um software de armazenamento de senhas.
+
+Este repositório reúne um guia completo para instalação, configuração e utilização de um servidor Bitwarden self-hosted, bem como o funcionamento do software.
+
+# Visão Geral
+
+O Bitwarden é uma solução segura e de fácil utilização para gerenciamento de senhas.
+Entre seus principais recursos estão a geração de senhas aleatórias com níveis de complexidade definidos pelo usuário e a possibilidade de utilizar extensões para navegadores, que permitem o preenchimento automático das credenciais.
+
+# Pre-requisitos
+
+Este repositório irá instalar o Bitwarden em um servidor Linux (Ubuntu Server).
+
+Especificações recomendadas do sistema:
+
+- Processador: x64, dual core de 2GHz;
+- Memória: 4GB de RAM;
+- Armazenamento: 25GB;
+- Versão do Docker: Motor 26+ e Compose;
 
 # Instalação
 
-Primeiramente, neste repositório estaremos instalando o Bitwarden no Ubuntu Server. Para um guia de como instalar o Ubuntu Server: 
+Para um guia de como instalar o Ubuntu Server: 
 
 ```
 https://youtu.be/uUUCLoDyIx8?si=HyztHFpD30TIMJpZ
 ```
 
-## O bitwarden será implantando utilizando docker, enão para instalar o docker:
+## O bitwarden será implantando utilizando docker, então para instalar o docker:
 
 ```
   sudo install -m 0755 -d /etc/apt/keyrings
@@ -39,10 +55,9 @@ Para criar o usuário, seu diretório e adicionar ao grupo docker:
 
 Primeiramente, é necessário definir um domínio para o Bitwarden, seja ele local ou público.
 
-Neste repositório, utilizaremos um domínio local, criado por meio do meu servidor DNS AdGuard.
-(Caso você tenha acesso ao roteador, também é possível reservar o domínio diretamente nele.)
+Neste repositório, utilizaremos um domínio local, que pode ser fácilmente criado em seu roteador ou servidor DNS.
 
-O domínio utilizado neste guia será: bitwarden.local.
+O domínio utilizado neste guia será: "bitwarden.f3f.local".
 
 Tendo o domínio definido, seguimos com a instalação:
 
@@ -71,4 +86,38 @@ Para iniciar basta estar logado no usuário bitwarden_usr e digitar os seguintes
 ```
 
 e para acessar basta digitar no navegador: bitwarden.local.
+
+# Como Funciona
+
+## Importe seus dados
+
+o Bitwarden oferece diversas opções de importação de dados, como importar de outros softwares de senha, de arquivos json, arquivos .csv, etc.. 
+
+Para verificar todos os tipos disponíveis acesse "Ferramentas -> Importação -> Dados -> Formato do arquivo".
+
+<Adicionar Imagem>
+
+Aqui iremos importar de um arquivo .csv, utilizando o formato do arquivo "Bitwarden (csv)".
+
+Primeiramente é necessário formatar os dados em um padrão aceito pelo Bitwarden.
+
+<Adicionar imagem de exemplo>
+
+[Explicação de cada campo] <Adicionar arquivo com explicação>
+
+Após formatar os dados, basta salvar o arquivo, selecioná-lo (indicando que está no formato Bitwarden (csv)) e clicar em "Importar".
+
+## Adicione um usuário pela interface web
+
+Entre em bitwarden.f3f.local e localize o botão “Novo”:
+
+<Imagem>
+
+Selecione a opção desejada, a mais comum é “Credenciais”:
+
+<Imagem>
+
+Preencha os campos para adicionar as credenciais desejadas:
+
+<Imagem>
 
