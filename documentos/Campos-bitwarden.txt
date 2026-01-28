@@ -1,0 +1,34 @@
+folder - pasta onde o acesso será guardado (AD, VPN, etc);
+
+favorite - indica se vai ou não para a pasta de favoritos (0- não entra, 1- favorito)
+
+type - Tipo do item:
+	* 1 - Login
+	* 2 - Nota segura
+	* 3 - Cartão
+	* 4 - Identidade
+
+name - nome do item no cofre
+
+notes - Notas Livres, observações.
+
+fields - Campos personalizados, em json:
+
+	"[
+  		{"name":"porta","value":"8006","type":0}, // type 0 -> texto
+  		{"name":"ambiente","value":"producao","type":1} // type 1 -> Campo oculto (senha)
+	]"
+
+reprompt - exigir senha mestra novamente ao acessa o item (0 - não pede, 1 - pede)
+
+login_uri - url do acesso (Ex.: www.gmail.com)
+
+login_username - usuário 
+
+login_password - senha do acesso
+
+login_totp - segredo TOTP (2FA) (deixar em branco)
+
+
+
+
