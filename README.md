@@ -130,3 +130,21 @@ Preencha os campos para adicionar as credenciais desejadas:
 
 ![Nova Credencial 3](./imagens/Nova-credencial03.png)
 
+
+## Visualização dos dados 
+
+Na aba "cofres" irá aparecer todas as credenciais cadastradas, organizadas por pastas.
+
+Para verificar as informações de uma credencial basta clicar em cima de seu nome que aparecerá um box contendo as informações cadastradas, no box você conseguirá copiar o login e a senha, acessar o site (caso tenha algum atrelado), editar e excluir.
+
+Caso deseje editar a credencial você contará com um assistente diretamente no box para criar uma senha aleatória, e poderá editar qualquer informação da credencial (!).
+
+Caso deseje excluir a credencial basta clicar no ícone de lixeira no canto inferior direito e confirmar a ação, vale ressaltar que o item não será excluido permanentemente, apenas será redirecionado para a pasta "lixeira" onde será automaticamente excluido após 30 dias.
+
+### Filtragem de dados
+
+Há a possibilidade de filtrar a pesquisa por pastas, selecionando a pasta desejada e indicando o valor que deseja buscar, ou filtrar em cima de todas as credenciais existentes na base de dados, selecionando "meu cofre" e indicando o valor que deseja buscar.
+
+
+# Erros comuns
+
