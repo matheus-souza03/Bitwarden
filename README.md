@@ -2,12 +2,21 @@
 
 Este repositório reúne um guia completo para instalação, configuração e utilização de um servidor Bitwarden self-hosted, bem como o funcionamento do software.
 
+
+# Índice
+
+- [Visão Geral](#visão-geral)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Como Funciona](#como-funciona)
+
+
 # Visão Geral
 
 O Bitwarden é uma solução segura e de fácil utilização para gerenciamento de senhas.
 Entre seus principais recursos estão a geração de senhas aleatórias com níveis de complexidade definidos pelo usuário e a possibilidade de utilizar extensões para navegadores, que permitem o preenchimento automático das credenciais.
 
-# Pre-requisitos
+# Pré-requisitos
 
 Este repositório irá instalar o Bitwarden em um servidor Linux (Ubuntu Server).
 
@@ -146,5 +155,4 @@ Caso deseje excluir a credencial basta clicar no ícone de lixeira no canto infe
 Há a possibilidade de filtrar a pesquisa por pastas, selecionando a pasta desejada e indicando o valor que deseja buscar, ou filtrar em cima de todas as credenciais existentes na base de dados, selecionando "meu cofre" e indicando o valor que deseja buscar.
 
 
-# Erros comuns
 
