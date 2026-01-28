@@ -95,15 +95,19 @@ o Bitwarden oferece diversas opções de importação de dados, como importar de
 
 Para verificar todos os tipos disponíveis acesse "Ferramentas -> Importação -> Dados -> Formato do arquivo".
 
+
 ![Formato do Arquivo](./imagens/Formato-do-arquivo.png)
+
 
 Aqui iremos importar de um arquivo .csv, utilizando o formato do arquivo "Bitwarden (csv)".
 
 Primeiramente é necessário formatar os dados em um padrão aceito pelo Bitwarden.
 
+
 ![Formato Bitwarden](./imagens/Formato-Bitwarden-csv.png)
 
-![Explicação dos Campos](./documentos/Campos-bitwarden.txt)
+[Explicação dos Campos](./documentos/Campos-bitwarden.txt)
+
 
 Após formatar os dados, basta salvar o arquivo, selecioná-lo (indicando que está no formato Bitwarden (csv)) e clicar em "Importar".
 
@@ -111,13 +115,18 @@ Após formatar os dados, basta salvar o arquivo, selecioná-lo (indicando que es
 
 Entre em bitwarden.f3f.local e localize o botão “Novo”:
 
+
 ![Nova Credencial](./imagens/Nova-credencial.png)
+
 
 Selecione a opção desejada, a mais comum é “Credenciais”:
 
+
 ![Nova Credencial 2](./imagens/Nova-credencial02.png)
 
+
 Preencha os campos para adicionar as credenciais desejadas:
+
 
 ![Nova Credencial 3](./imagens/Nova-credencial03.png)
 
